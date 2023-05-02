@@ -38,3 +38,13 @@ console.log(arrFull[0][1][4]); // output: 10
  * Segue o console.log()
  */
 console.log(arrFull[1][0][4]); //output: 55
+
+//Lendo arrFull
+
+for (var x = 0; x < arrFull.length; x++) {
+  for (var y = 0; y < arrFull[x].length; y++) {
+    for (var z = 0; z < arrFull[x][y].length; z++) {
+      console.log(arrFull[x][y][z]);
+    }
+  }
+}
