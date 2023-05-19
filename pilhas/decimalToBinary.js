@@ -35,4 +35,4 @@ function dec2hex(decNumber, base) {
   return baseString;
 }
 
-console.log(dec2hex(10, 16)); // 1010
+console.log(dec2hex(10, 16)); // A
